@@ -76,6 +76,8 @@
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
     <ClInclude Include="my_allocator.h" />
+    <ClInclude Include="stl_alloc.h" />
+    <ClInclude Include="__default_alloc_template.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="my_allocator.cpp" />
