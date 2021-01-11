@@ -35,9 +35,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{d5739b1e-5074-4606-960f-5a8878326d0c}</ProjectGuid>
+    <ProjectGuid>{a875bc30-9aad-4d99-91c6-4160888ce6f4}</ProjectGuid>
     <Keyword>Linux</Keyword>
-    <RootNamespace>Test_new_delete</RootNamespace>
+    <RootNamespace>m_allocator</RootNamespace>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
     <ApplicationType>Linux</ApplicationType>
     <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
@@ -75,14 +75,11 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
-    <ClInclude Include="NewHandlerHolder.h" />
-    <ClInclude Include="NewHandlerSupport.h" />
-    <ClInclude Include="Test_new_handler.h" />
+    <ClInclude Include="my_allocator.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="NewHandlerHolder.cpp" />
-    <ClCompile Include="NewHandlerSupport.cpp" />
-    <ClCompile Include="Test_new_handler.cpp" />
+    <ClCompile Include="my_allocator.cpp" />
+    <ClCompile Include="test_myallocator.cpp" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
